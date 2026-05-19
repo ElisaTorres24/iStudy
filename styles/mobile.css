@@ -28,7 +28,12 @@
 
   }
 
-  
+  #nav-esq ul#menu-principal li {
+    margin: .5rem;
+    margin-left: 1rem;
+  }
+
+
 
 
    
