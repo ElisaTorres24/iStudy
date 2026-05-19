@@ -98,10 +98,13 @@ header{
 
 #nav-esq ul#menu-principal li a {
     text-decoration: none;
-    color: #2563EB;
+    color: #8d96aa;
+    font-size: 150%;
+    font-weight: 400;
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
     font-style: normal;
 }
+
+
 
