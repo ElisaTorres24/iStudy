@@ -24,3 +24,13 @@ CORES
   font-weight: <weight>;
   font-style: normal;
 */
+
+@media screen and (max-width: 630px) {
+  /*------MENU HAMBURGUER------*/
+  #nav-esq {
+    justify-content: space-between;
+  }
+
+  
+   
+}
