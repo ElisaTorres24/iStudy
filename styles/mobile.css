@@ -1,29 +1,5 @@
-/* 
-CORES 
+/*------NAVBAR------*/
 
-#FFFFFF - BRANCO
-#F8FAFC - GELO AZULADO
-#2563EB - AZUL COBALTO
-#F97316 - LARANJA CÍTRICO
-#0F172A - AZUL ARDÓSIA
-#64748B - CINZA AZULADO
-
-
-
-  (títulos e textos longos):
-  
-  font-family: "Lora", serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-
-  (interface):
-
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-*/
 
 @media screen and (max-width: 630px) {
   /*------MENU HAMBURGUER------*/
@@ -31,6 +7,29 @@ CORES
     justify-content: space-between;
   }
 
+  #nav-esq ul#icone-menu {
+    display: flex;
+  }
+
+  /*------MENU-----*/
+
+  #nav-esq ul#menu-principal {
+    flex-direction: column;
+    width: 80%;
+    height: 85vh;
+    background: linear-gradient(rgb(26, 44, 77) 0%, rgb(68, 77, 161) 45%,  rgb(36, 15, 77) 100%);
+    padding-top: .5rem;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    display: none;
+
+  }
+
   
+
+
    
 }
