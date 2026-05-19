@@ -69,5 +69,39 @@ header{
 /*------MENU HAMBURGUER------*/
 
 #nav-esq ul#icone-menu {
-    
+    display: none;
 }
+
+#nav-esq ul#icone-menu li {
+    list-style: none;
+}
+
+#nav-esq ul#icone-menu li ion-icon{
+    font-size: 50px;
+    color:#2563EB;
+    margin-right: 2rem;
+
+}
+
+#nav-esq ul#menu-principal{
+    margin-left: 1rem;
+
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#nav-esq ul#menu-principal li {
+    list-style: none;
+    margin-right: 2rem;
+}
+
+#nav-esq ul#menu-principal li a {
+    text-decoration: none;
+    color: #2563EB;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
