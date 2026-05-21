@@ -59,15 +59,16 @@
   #nav-esq ul#menu-principal {
     flex-direction: column;
     width: 80%;
-    height: 85vh;
+    height: 70vh;
     background: linear-gradient(rgb(26, 44, 77) 0%, rgb(68, 77, 161) 45%,  rgb(36, 15, 77) 100%);
     padding-top: .5rem;
 
-    position: fixed;
-    top: 0;
+    position: absolute;
+    top: 7rem;
     right: 0;
     height: 100vh;
     z-index: 999;
+    
     display: none;
 
   }

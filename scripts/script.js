@@ -17,7 +17,7 @@ function esconderMenu() {
 
 let controle = true;
 
-$('#nav-esq ul#icone-menu li#menu').click(function() {
+$('#nav-esq ul#icone-menu').click(function() {
     if (controle == true) {
         mostraMenu();
         controle = false;
