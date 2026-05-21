@@ -11,6 +11,15 @@
     display: flex;
   }
 
+  #nav-esq ul#icone-menu {
+    display: flex
+  }
+
+  #nav-esq ul#icone-menu li#menuX {
+    display: none;
+  }
+
+
   /*------MENU-----*/
 
   #nav-esq ul#menu-principal {
