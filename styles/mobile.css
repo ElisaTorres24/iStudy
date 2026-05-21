@@ -21,7 +21,7 @@
     }
   }
 
-  
+
   /*------NAVE BAR------*/
 
   @media screen and (max-width: 1110px) {
@@ -56,13 +56,13 @@
 
 
   /*------MENU-----*/
-
   #nav-esq ul#menu-principal {
     flex-direction: column;
     width: 80%;
     height: 85vh;
     background: linear-gradient(rgb(26, 44, 77) 0%, rgb(68, 77, 161) 45%,  rgb(36, 15, 77) 100%);
     padding-top: .5rem;
+
     position: fixed;
     top: 0;
     right: 0;
