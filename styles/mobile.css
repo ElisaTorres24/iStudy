@@ -1,7 +1,17 @@
 /*------NAVBAR------*/
 
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 1200px) {
+
+  header{
+     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../images/headerCapaP.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+
+
+
   /*------MENU HAMBURGUER------*/
   #nav-esq {
     justify-content: space-between;
