@@ -31,6 +31,25 @@ CORES
     box-sizing: border-box;
 }
 
+h1 {
+    font-family: "Lora", serif;
+    text-shadow: 4px 6px 10px #000;
+    font-weight: 400;
+    font-size: max(44px, 5.2vw) 
+}
+
+h2{
+    font-family: "Lora", serif;
+    text-shadow: 4px 6px 10px #7b34ad;
+    font-weight: 400;
+    font-size: max(32px, 3.8vw) 
+}
+
+
+
+
+
+/* ELEMENTOS DO HEADER */
 header{
     max-width: 100%;
     height: 90vh;
@@ -62,8 +81,8 @@ header{
 }
 
 #nav-esq div#logo img {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 125%;
+    max-height: 125%;
 }
 
 /*------MENU HAMBURGUER------*/
@@ -82,6 +101,8 @@ header{
     margin-right: 2rem;
 
 }
+
+/*------MENU PRINCIPAL------*/
 
 #nav-esq ul#menu-principal{
     margin-left: 1rem;
