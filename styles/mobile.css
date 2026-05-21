@@ -1,28 +1,44 @@
-/*------NAVBAR------*/
+/*------ELEMENTOS DO HEADER------*/
 
 
 @media screen and (max-width: 1200px) {
 
-  header{
-     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../images/headerCapaM.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-  }
+    header{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../images/headerCapaM.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+}
 
   @media screen and (max-width: 600px) {
 
-  header{
-     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../images/headerCapaP.png');
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
+    header{
+      background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url('../images/headerCapaP.png');
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+    }
+  }
+
+  
+  /*------NAVE BAR------*/
+
+  @media screen and (max-width: 1110px) {
+      #nav-esq ul.menu-principal li a {
+        font-size: 90%;
+      }
   }
 
 
+  @media screen and (max-width: 970px) {
+    #nav-esq div#logo {
+      margin-left: 1rem;
+    }
 
-  /*------MENU HAMBURGUER------*/
-  #nav-esq {
+  /* ------MENU HAMBURGUER------ */
+
+    #nav-esq {
     justify-content: space-between;
   }
 
@@ -61,8 +77,4 @@
     margin-left: 1rem;
   }
 
-
-
-
-   
 }
