@@ -58,12 +58,12 @@ div.chamada a {
 
     display: inline-block;
 
-    animation-name: HeaderA-moverParaCima;
+    /* animation-name: HeaderA-moverParaCima;
     animation-duration: 1s;
     animation-delay: 1s;
     animation-timing-function: ease-out;
     animation-fill-mode:backwards;
-    transition: .3s ease-out;
+    transition: .3s ease-out; */
 
 }
 
@@ -71,11 +71,13 @@ div.chamada a:hover {
     background: linear-gradient(rgba(37, 99, 235, 1) 0%, rgb(22, 82, 249) 50%, rgb(3, 105, 156) 100%);
     color: #fff;
     transform: translateY(-5px);
+    opacity: 0.8;
 }
 
 
 
 /* ELEMENTOS DO HEADER */
+
 header{
     max-width: 100%;
     height: 90vh;
