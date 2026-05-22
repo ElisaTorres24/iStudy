@@ -54,7 +54,7 @@ div.chamada a {
     padding: 20px, 80px;
     border-radius: 50px;
     font-weight: 600;
-    background: linear-gradient(rgba(217, 197, 137, 1) 0%,rgba(249, 115, 22, 1) 50%, rgba(37, 99, 235, 1) 100%);
+    background: linear-gradient(rgba(217, 197, 137, 1) 0%,rgb(128, 31, 226) 50%, rgba(37, 99, 235, 1) 100%);
 
     display: inline-block;
 
@@ -68,7 +68,7 @@ div.chamada a {
 }
 
 div.chamada a:hover {
-    background: linear-gradient(rgba(37, 99, 235, 1) 0%, rgba(249, 115, 22, 1) 50%, rgba(217, 197, 137, 1) 100%);
+    background: linear-gradient(rgba(37, 99, 235, 1) 0%, rgb(22, 82, 249) 50%, rgb(3, 105, 156) 100%);
     color: #fff;
     transform: translateY(-5px);
 }
