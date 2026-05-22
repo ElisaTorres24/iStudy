@@ -45,7 +45,33 @@ h2{
     font-size: max(32px, 3.8vw) 
 }
 
+/*------BOTÃO CHAMADA------*/
 
+div.chamada a {
+    font-size: max(16px, 1.8vw);
+    color: #fff;
+    text-decoration: none;
+    padding: 20px, 80px;
+    border-radius: 50px;
+    font-weight: 600;
+    background: linear-gradient(rgba(217, 197, 137, 1) 0%,rgba(249, 115, 22, 1) 50%, rgba(37, 99, 235, 1) 100%);
+
+    display: inline-block;
+
+    animation-name: HeaderA-moverParaCima;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode:backwards;
+    transition: .3s ease-out;
+
+}
+
+div.chamada a:hover {
+    background: linear-gradient(rgba(37, 99, 235, 1) 0%, rgba(249, 115, 22, 1) 50%, rgba(217, 197, 137, 1) 100%);
+    color: #fff;
+    transform: translateY(-5px);
+}
 
 
 
@@ -97,7 +123,7 @@ header{
 
 #nav-esq ul#icone-menu li ion-icon{
     font-size: 50px;
-    color:#2563EB;
+    color:#64748B;
     margin-right: 2rem;
 
 }
@@ -145,6 +171,38 @@ div.chamada {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+}
+
+div.chamada h1 {
+    color: #2563EB;
+    
+    /* animation-name: HeaderH1-moverParaDireita;
+    animation-duration: 2s;
+    animation-timing-function: ease-out; */
+
+}
+
+div.chamada h2 {
+    color: #64748B;
+
+    margin-bottom: 55px;
+
+    /* animation-name: HeaderH1-moverParaEsquerda;
+    animation-duration: 1.5s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: backwards; */
+}
+
+div.chamada a {
+    font-size: 150%;
+    font-weight: 400;
+    text-shadow: 4px 6px 10px #000;
+    padding: .8rem 1.5rem;
+    transition: .3s ease-out;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 
